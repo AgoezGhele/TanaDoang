@@ -54,3 +54,35 @@ window.addEventListener("DOMContentLoaded", () => {
     copyright();
     filterKatalog();
 });
+//fungsi dibawah ini untuk merubah kata yang sama menjadi link dalam paragraf 
+document.addEventListener("DOMContentLoaded", function() {
+    // Daftar kata yang ingin diganti beserta linknya
+    const wordLinks = {
+        "Indonesia": "https://indonesia.go.id/",
+        "hattrick": "https://www.hattrick.org/?inviteRef=YCDDBV",
+        "daftar disini": "https://www.hattrick.org/?inviteRef=YCDDBV",
+"playstore": "https://play.google.com/store/apps/details?id=org.hattrick.hattrick",
+"FC Selayar": "https://www.hattrick.org/Club/?TeamID=113295",
+"AgoezGhele": "https://www.hattrick.org/Club/Manager/?userId=13898299&browseIds=",
+"selayar": "https://id.wikipedia.org/wiki/Kabupaten_Kepulauan_Selayar",
+        "Asia": "https://www.asia.com"
+    };
+
+    // Pilih semua paragraf di halaman
+    const paragraphs = document.querySelectorAll("p");
+
+    // Loop setiap paragraf
+    paragraphs.forEach(function(paragraph) {
+        let text = paragraph.innerHTML;
+
+        // Loop setiap kata dalam daftar wordLinks
+        for (const [word, link] of Object.entries(wordLinks)) {
+            // Gantikan kata dengan link yang sesuai
+            const regex = new RegExp(word, 'gi'); // case-insensitive
+            text = text.replace(regex, `<a href="${link}">${word}</a>`);
+        }
+
+        // Update paragraf dengan teks yang sudah diganti
+        paragraph.innerHTML = text;
+    });
+});
