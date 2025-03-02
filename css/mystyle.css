@@ -1,0 +1,129 @@
+/*dibawah ini kelas  untuk mengatur gaya menu di navigasi*/
+nav {
+    display: flex;
+    justify-content: space-between; /* Membagi ruang di antara item secara merata */
+    align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+    padding: 0 10px; /* Menambahkan padding di kiri dan kanan nav */
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    width: 100%; /* Membuat ul menempati lebar penuh */
+    justify-content: space-between; /* Membuat item tersebar di antara kiri, tengah, dan kanan */
+}
+
+.menu li {
+    margin: 0 15px; /* Memberikan jarak di antara setiap item */
+    padding: 10px 15px;
+    border: 2px solid black;
+    background-color: green;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* dibawah ini kelas untuk mengatur icon medsos di footer*/ 
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Sesuaikan dengan kebutuhan */
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.icon-container img {
+  width: 50px; /* Sesuaikan ukuran ikon */
+  height: 50px;
+}
+
+/*dibawah ini kelas untuk membuat garis tebal untuk heading pembatas */ 
+.garisheading {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+margin: 0;
+    font-weight: strong;
+    line-height: 0;
+}
+
+
+/*dibawah ini class untuk mengatur style pada tag main*/
+.utama {
+  background-color: blue;
+padding: 10px;
+}
+
+.utama p {
+  color: white;
+font-size: 22px;
+  text-align: justify;
+padding: 0px;
+margin: 10;
+}
+
+/* style Untuk membungkus form dan menyusun layout di halaman artikel  */
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk kotak kombo */
+.select-box {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #5c6bc0;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.select-box:focus {
+    border-color: #3949ab;
+    outline: none;
+    box-shadow: 0 0 8px rgba(57, 73, 171, 0.5);
+}
+
+/* Styling untuk tombol Cari dengan efek berkedip */
+.blink-button {
+    padding: 10px 20px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    animation: blink-animation 1s step-end infinite;
+}
+
+.blink-button:hover {
+    background-color: #ff8f00;
+}
+
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+* dibawah ini style untuk kotak kombo filter per
