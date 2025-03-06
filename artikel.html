@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Daftar Artikel</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body>
+    <header>
+        <div class="garisheading">
+            <h1>Halaman Artikel</h1>        
+        </div><nav>
+            <ul class="menu">
+                <li><button onclick="window.location.href='index.html'">Home</button></li>
+                <li><button onclick="window.location.href='artikel.html'">Artikel</button></li>
+                <li><button onclick="window.location.href='tentang.html'">Tentang Saya</button></li>
+            </ul>
+        </nav>
+    </header>
+<div class="garisheading">
+<h2> Daftar Artikel </h2>
+</div>
+<div class="filter-container">
+    <form id="filterForm">
+        <label for="tujuan">filter Kategori Artikel</label>
+        <select id="tujuan" class="select-box">
+            <option value="all">Semua</option>
+            <option value="sumatra">Tutorial</option>
+            <option value="jawa">History</option>
+            <option value="bali">Lainnya </option>
+        </select>
+        <button type="button" class="blink-button" onclick="filterKatalog()">Cari</button>
+    </form>
+
+
+
+
