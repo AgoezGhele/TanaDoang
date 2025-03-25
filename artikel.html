@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Daftar Artikel</title>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/mystyle.css">
-
+<head>    
+<meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>Halaman Daftar Artikel</title>    
+<script src="js/script.js"></script>    
+<link rel="stylesheet" href="css/mystyle.css">
 </head>
-<body>
-    <header>
-        <div class="garisheading">
-            <h1>Halaman Artikel</h1>        
-        </div><nav>
-            <ul class="menu">
-                <li><button onclick="window.location.href='index.html'">Home</button></li>
-                <li><button onclick="window.location.href='artikel.html'">Artikel</button></li>
-                <li><button onclick="window.location.href='tentang.html'">Tentang Saya</button></li>
-            </ul>
-        </nav>
-    </header>
+<body>    
+<header>        
+<div class="garisheading">            
+<h1>Halaman Artikel</h1>                
+</div><nav>            
+<ul class="menu">                
+<li><button onclick="window.location.href='index.html'">Home</button></li>                
+<li><button onclick="window.location.href='artikel.html'">Artikel</button></li>                
+<li><button onclick="window.location.href='tentang.html'">Tentang Saya</button></li>            
+</ul>        
+</nav>    
+</header>
 <div class="garisheading">
 <h2> Daftar Artikel </h2>
 </div>
-<div class="filter-container">
-    <form id="filterForm">
-        <label for="tujuan">filter Kategori Artikel</label>
-        <select id="tujuan" class="select-box">
-            <option value="all">Semua</option>
-            <option value="sumatra">Tutorial</option>
-            <option value="jawa">History</option>
-            <option value="bali">Lainnya </option>
-        </select>
-        <button type="button" class="blink-button" onclick="filterKatalog()">Cari</button>
-    </form>
+<div class="filter-container">    
+<form id="filterForm">        
+<label for="tujuan">filter Kategori Artikel</label>        
+<select id="tujuan" class="select-box">            
+<option value="all">Semua</option>            
+<option value="sumatra">Tutorial</option>            
+<option value="jawa">History</option>            
+<option value="bali">Lainnya </option>        
+</select>        
+<button type="button" class="blink-button" onclick="filterKatalog()">Cari</button>    
+</form>
 </div>
 <hr>
-<section class="catalog-item pulauTujuan" data-kategori="sumatra">
-            <h3>Daftar Artikel Tutorial</h3>
+<section class="catalog-item pulauTujuan" data-kategori="sumatra">            
+<h3>Daftar Artikel Tutorial</h3>
 <a href="artikel/panduanawalbermainhattrick.html">Panduan awal bermain hattrick</a><br>
 <a href="artikel/Polalatihan.html">Pola Latihan</a>
+<a href="artikel/KesalahanPemula.html">6 Kesalahan Pemula</a>
+
 </section>
 <section class="catalog-item pulauTujuan" data-kategori="jawa">
 <h3>Daftar Artikel History</h3>
@@ -48,49 +49,45 @@
 <section class="catalog-item pulauTujuan" data-kategori="bali">
 <h3> daftar artikel lainnya</h3>
 <a href="artikel/duaambisiyang membara.html">Dua Ambisi Yang Membara Di Premainan Hattrick. </a>
-
 </section>
-<div class="garisheading">
-    <h4>Hubungi Saya</h4>
+<div class="garisheading">    
+<h4>Hubungi Saya</h4>
+</div>    
+<div class="icon-container">        
+<a href="https://wa.link/ujpeqo">            
+<img src="media/iconwa.svg" alt="WhatsApp">        
+</a>    
 </div>
-    <div class="icon-container">
-        <a href="https://wa.link/ujpeqo">
-            <img src="media/iconwa.svg" alt="WhatsApp">
-        </a>
-    </div>
 
 
 
-
-<div class="garisheading">
-    <h4>Sosial Media</h4>
+<div class="garisheading">    
+<h4>Sosial Media</h4>
+</div>    
+<div class="icon-container">        
+<a href="https://www.facebook.com/share/1FYuDMsmTJ/        ">            
+<img src="media/iconfb.svg" alt="Face Book">        
+</a>        
+<a href="https://www.instagram.com/agoez_ghele?igsh=aW1uenU1NWJlMjZo        "><img src="media/instagram.svg" alt="Instagram"></a>        
+<a href="https://x.com/AgoezGhele?t=xPSEwNj_Mwm9mP4eAico2Q&s=09        ">            
+<img src="media/x.svg" alt="X">        
+</a>    
 </div>
-    <div class="icon-container">
-        <a href="https://www.facebook.com/share/1FYuDMsmTJ/        ">
-            <img src="media/iconfb.svg" alt="Face Book">
-        </a>
-        <a href="https://www.instagram.com/agoez_ghele?igsh=aW1uenU1NWJlMjZo        "><img src="media/instagram.svg" alt="Instagram"></a>
-        <a href="https://x.com/AgoezGhele?t=xPSEwNj_Mwm9mP4eAico2Q&s=09        ">
-            <img src="media/x.svg" alt="X">
-        </a>
-    </div>
 </section>
-<div class="garisheading">
-    <h4>Donasi</h4>
+<div class="garisheading">    
+<h4>Donasi</h4>
+</div>    
+<div class="icon-container">        
+<a href="https://paypal.me/AgusSalim309?country.x=ID&locale.x=id_ID        ">            
+<img src="media/paypal.svg" alt="Pay Pall">        
+</a>        
+<a href="https://gopay.co.id/app/scanqr?deeplink_source=request_money        ">            
+<img src="media/gopay.png" alt="Go Pay">        
+</a>    
 </div>
-    <div class="icon-container">
-        <a href="https://paypal.me/AgusSalim309?country.x=ID&locale.x=id_ID        ">
-            <img src="media/paypal.svg" alt="Pay Pall">
-        </a>
-        <a href="https://gopay.co.id/app/scanqr?deeplink_source=request_money        ">
-            <img src="media/gopay.png" alt="Go Pay">
-        </a>
-    </div>
-
 <hr>
-<footer>
-        <p>Copyright <span id="year"></span> Agoez Ghele All rights reserved</p>
+<footer>        
+<p>Copyright <span id="year"></span> Agoez Ghele All rights reserved</p>
 </footer>
-
 </body>
 </html>
