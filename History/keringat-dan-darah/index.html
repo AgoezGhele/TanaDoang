@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The blind hattrick,turnamen,darah, keringat dan trofi: pertaruhan harga diri di lapangan netral the blind  hattrick</title>
+    <script src="../../js/script.js"></script>
     <link rel="stylesheet" href="../css/mystyle.css">
 
 </head>
 <body>
+<div class="banner-andhim">
+  <img src="../../media/banner.webp" alt="banner hattrick komunitas indonesia dengan latar belakang tangan menulis dan pemain menggiring blola">
+</div>
+
     <header>
+<nav>
+            <ul class="menu">
+                <li><button onclick="window.location.href='../../'">Beranda</button></li>
+                <li><button onclick="window.location.href='../../tentang/'">Tentang Saya</button></li>
+<li> <button id="aksesibilitasToggle" aria-haspopup="true" aria-controls="menuAkses">Aksesibilitas</button></li>
+</ul>
+<div id="menuAkses" class="aksesibilitas-popup" role="dialog" aria-modal="true" hidden tabindex="-1">
+  <button id="bacaHalaman">🔊 Baca Halaman</button>
+  <button id="modeGelapToggle">Mode Gelap</button>
+  <button id="perbesarTeks"> Perbesar Teks</button>
+  <button id="kecilkanTeks">Kecilkan Teks</button>
+<button id="kontrasToggle">Kontras Tinggi</button>
+  <button id="tutupAkses">❌ Tutup Menu</button>
+</div>
+
+        </nav>
+
         <div class="garisheading">
             <h1> artikel Turnamen Hattrick</h1>        
-        </div><nav>
-            <ul class="menu">
-                <li><button onclick="window.location.href='../index.html'">Home</button></li>
-                <li><button onclick="window.location.href='../artikel.html'">Artikel</button></li>
-                <li><button onclick="window.location.href='../tentang.html'">Tentang Saya</button></li>
-            </ul>
-        </nav>
+        </div>
     </header>
 <h2>Darah, Keringat, Dan Trofi: Pertaruhan Harga Diri Di Lapangan Netral The Blind Hattrick</h2>
 <p>Penulis : <a href="https://www.hattrick.org/Club/Manager/?userId=13640175&browseIds="> Bagas Arjuna </a></p>
@@ -126,9 +142,33 @@
 <h4>Legenda Yang Takkan Pernah Padam</h4>
 <p><b>Kontingen Putih</b> membuktikan bahwa kerja tim dan tekad bisa mengalahkan segalanya. Sementara Hijau harus puas sebagai runner-up, <b>Pekanbaru City</b> tetap dikenang sebagai mesin penghancur. Di sudut lain, Maung FC dan FC Selayar Munchen menjadi simbol kepedihan. Turnamen ini bukan sekadar pertandingan, tapi cerita tentang manusia: jatuh, bangkit, dan berjuang hingga tetes keringat terakhir.<br>Inilah legenda <b>The Blind Hattrick</b>, di mana setiap air mata, tawa, dan teriakan kebanggaan akan abadi dalam ingatan. ⚽💔🏆</p>
 <p>Salam Hattrickers</p>
-    <div class="garisheading">
+<!-- Tombol Bagikan & Popup -->
+<div class="share-section">
+  <button class="share-btn" onclick="togglePopup()" aria-haspopup="true" aria-controls="popupShare">
+    Bagikan ke Medsos
+  </button>
+
+  <div class="popup-share" id="popupShare" role="dialog" aria-modal="true" tabindex="-1">
+    <button onclick="bagikanFacebook()">Bagikan ke Facebook</button>
+    <button onclick="bagikanWhatsapp()">Bagikan ke WhatsApp</button>
+    <button onclick="salinLink()">Salin Link</button>
+  </div>
+</div>
+
+<h3> Komentar</h3>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="70af2b20-fc8f-4162-9c16-53d2f449da4a"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<h3>Rekomendasi Postingan </h3>
+<div id="recommendation-list"></div>
+
         <h4>Hubungi Saya</h4>
-    </div>
         <div class="icon-container">
             <a href="https://wa.link/ujpeqo">
                 <img src="../media/iconwa.svg" alt="WhatsApp">
@@ -163,7 +203,8 @@
 
 <hr>
 <footer>
-        <p>Copyright <span id="year"></span> Agoez Ghele All rights reserved</p>
+        <p>Copyright <span id="year"></span> Agoez Ghele. Created by <a href="https://andhim.net" target="_blank" rel="noopener noreferrer">Andhim</a> All rights reserved</p>
+
 </footer>
 
 

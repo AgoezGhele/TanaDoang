@@ -3,52 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Profile Agus Ghele</title>
+<title>Hattrick.id - Komunitas Hattrick Football Manager Indonesia</title>
+<meta name="description" content="Hattrick.id adalah komunitas penggemar game Hattrick Football Manager di Indonesia. Dapatkan tips, tutorial, forum diskusi, dan info terbaru seputar Hattrick.">
+<meta name="keywords" content="Hattrick, Hattrick Indonesia, Football Manager, Komunitas Game, Manajer Sepakbola, Game Strategi, Tutorial Hattrick, Agoez Ghele">
+<meta name="author" content="Agoez Ghele">
+<meta http-equiv="content-language" content="id">
+<meta property="og:title" content="Hattrick.id - Komunitas Hattrick Football Manager Indonesia">
+<meta property="og:description" content="Gabung bersama komunitas Hattrick Football Manager di Indonesia. Temukan tips, trik, dan tutorial eksklusif dari para manajer berpengalaman.">
+<meta property="og:url" content="https://hattrick.id">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://hattrick.id/media/banner.jpg"> 
+
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/mystyle.css">
 
 </head>
 <body>
+<div class="banner-andhim">
+  <img src="media/banner.webp" alt="banner hattrick komunitas indonesia dengan latar belakang tangan menulis dan pemain menggiring blola">
+</div>
+
     <header>
-        <div class="garisheading">
-            <h1>🎉 Selamat Datang di Halaman Saya! 🎉</h1>        
-        </div><nav>
+<nav>
             <ul class="menu">
-                <li><button onclick="window.location.href='index.html'">Home</button></li>
-                <li><button onclick="window.location.href='artikel.html'">Artikel</button></li>
-                <li><button onclick="window.location.href='tentang.html'">Tentang Saya</button></li>
+                <li><button onclick="window.location.href=''">Beranda</button></li>
+                <li><button onclick="window.location.href='tentang'">Tentang Saya</button></li>
+<li> <button id="aksesibilitasToggle" aria-haspopup="true" aria-controls="menuAkses">Aksesibilitas</button></li>
             </ul>
+<div id="menuAkses" class="aksesibilitas-popup" role="dialog" aria-modal="true" hidden tabindex="-1">
+  <button id="bacaHalaman">🔊 Baca Halaman</button>
+  <button id="modeGelapToggle">Mode Gelap</button>
+  <button id="perbesarTeks"> Perbesar Teks</button>
+  <button id="kecilkanTeks">Kecilkan Teks</button>
+<button id="kontrasToggle">Kontras Tinggi</button>
+  <button id="tutupAkses">❌ Tutup Menu</button>
+</div>
+
         </nav>
     </header>
+<main>
 <div class="garisheading">
-        <h2>Hattrick Enthusiast | Strategi Sepak Bola Virtual | Analisis Gameplay</h2>
+<h1>Komunitas Hattrick Football Manager Indonesia</h1>
 </div>
-        <p id="menyapa1"></p>
+<h2>Selamat Datang di Hattrick.id</h2>
 
-<p>nama saya AgoezGhele, untuk para penggemar manajemen sepak bola dan pecinta Hattrick! 👋</p>
-    <p>Halaman ini adalah ruang tempat saya berbagi analisis, strategi, dan panduan seputar <i>hattrick</i>  game manajemen klub sepak bola online yang penuh tantangan. <br>Di sini, Anda akan menemukan artikel, tools sederhana, dan eksperimen yang terkait dengan mekanisme permainan, mulai dari </p>
-<ul> 
-    <li>📊 Analisis statistik</li>
-    <li>⚽ Strategi pelatihan    </li>
-<li>transfer pemain</li>
-<li>🧠 Tips menyusun taktik pertandingan</li>
-<li>🔧 Algoritma sederhana untuk simulasi</li>
+<p>Hattrick.id adalah sebuah situs komunitas yang didedikasikan untuk para penggemar game Hattrick Football Manager di seluruh Indonesia. Situs ini dibuat oleh AgoezGhele dan <a href="https://andhim.net">Andhim</a> sebagai wadah untuk berkumpul, berdiskusi, dan saling berbagi pengalaman dalam mengelola tim sepakbola virtual di dunia Hattrick.</p>
+<p>Melalui Hattrick.id, kami menghadirkan ruang interaksi antar-manajer dari berbagai penjuru tanah air. Di sini, Anda dapat menemukan berbagai informasi penting seputar Hattrick, mulai dari strategi permainan, tips membangun tim yang kompetitif, hingga analisis taktik dari para pemain berpengalaman.</p>
+<p>Di sini, Anda akan menemukan artikel, tools sederhana, dan eksperimen yang terkait dengan mekanisme permainan, mulai dari:</p>
+<ul>
+<li>Tutorial dan panduan bermain Hattrick untuk pemula dan lanjutan</li>
+<li>Berita dan pembaruan seputar liga lokal dan global</li>
+<li>cerita inspiratif dari sesama manajer</li>
 </ul>
-<p>Saya percaya bahwa <i>hattrick</i> bukan sekadar game, tapi juga latihan dalam logika, perencanaan, dan kolaborasi. Semua konten di sini dibuat dengan tujuan berbagi pengetahuan dan membangun komunitas yang aktif.</p>
-<p>Jika belum memainkan permainan <i>hattrick</i> ini dan tertarik untuk mencoba, silahkan daftar disini atau bisa juga install aplikasinya di PlayStore</p>
-
+<p>Kami percaya bahwa kekuatan komunitas adalah kunci untuk terus berkembang. Karena itu, Hattrick.id hadir sebagai tempat belajar, berbagi, dan tentu saja, menjalin persahabatan antar sesama penggemar game manajer sepakbola.</p>
+ 
 <div class="garisheading">
-    <h4>Hubungi Saya</h4>
+  <h3>Filter Postingan</h3>
 </div>
+<div class="filter-container">
+  <label for="categoryFilter">Kategori:</label>
+  <select id="categoryFilter" class="filter-select">
+    <option value="semua">Semua</option>
+    <option value="tutorial">Tutorial</option>
+    <option value="history">History</option>
+    <option value="lainnya">Lainnya</option>
+  </select>
+
+  <label for="searchInput">Cari:</label>
+  <input type="text" id="searchInput" class="filter-input" placeholder="Cari judul..." />
+</div>
+
+    <section class="post-list">
+      <div class="garisheading">
+        <h3>Daftar Artikel</h3>
+      </div>
+    <div id="posts-container">
+      <!-- Postingan akan muncul otomatis lewat JavaScript -->
+    </div>
+</main>
+    <section class="contacts">
+
+    <h4>Hubungi Saya</h4>
     <div class="icon-container">
         <a href="https://wa.link/ujpeqo">
             <img src="media/iconwa.svg" alt="WhatsApp">
         </a>
     </div>
+</section>
+    <section class="contacts">
 
-<div class="garisheading">
     <h4>Sosial Media</h4>
-</div>
     <div class="icon-container">
         <a href="https://www.facebook.com/share/1FYuDMsmTJ/        ">
             <img src="media/iconfb.svg" alt="Face Book">
@@ -61,7 +105,7 @@
 </section>
 <hr>
 <footer>
-        <p>Copyright <span id="year"></span> Agoez Ghele All rights reserved</p>
+        <p>Copyright <span id="year"></span> Agoez Ghele. Created by <a href="https://andhim.net" target="_blank" rel="noopener noreferrer">Andhim</a> All rights reserved</p>
 </footer>
 
 

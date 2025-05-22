@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Tentang Agoez Ghele</title>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/mystyle.css">
 
 </head>
 <body>
+<div class="banner-andhim">
+  <img src="../media/banner.webp" alt="banner hattrick komunitas indonesia dengan latar belakang tangan menulis dan pemain menggiring blola">
+</div>
+
     <header>
+<nav>
+            <ul class="menu">
+                <li><button onclick="window.location.href='../'">Beranda</button></li>
+                <li><button onclick="window.location.href=''">Tentang Saya</button></li>
+<li> <button id="aksesibilitasToggle" aria-haspopup="true" aria-controls="menuAkses">Aksesibilitas</button></li>
+</ul>
+<div id="menuAkses" class="aksesibilitas-popup" role="dialog" aria-modal="true" hidden tabindex="-1">
+  <button id="bacaHalaman">🔊 Baca Halaman</button>
+  <button id="modeGelapToggle">Mode Gelap</button>
+  <button id="perbesarTeks"> Perbesar Teks</button>
+  <button id="kecilkanTeks">Kecilkan Teks</button>
+<button id="kontrasToggle">Kontras Tinggi</button>
+  <button id="tutupAkses">❌ Tutup Menu</button>
+</div>
+        </nav>
+
         <div class="garisheading">
             <h1>Tentang </h1>        
-        </div><nav>
-            <ul class="menu">
-                <li><button onclick="window.location.href='index.html'">Home</button></li>
-                <li><button onclick="window.location.href='artikel.html'">Artikel</button></li>
-                <li><button onclick="window.location.href='tentang.html'">Tentang Saya</button></li>
-            </ul>
-        </nav>
+        </div>
     </header>
     <div class="garisheading">
     <h2>Selamat datang di ruang digital saya! </h2>
@@ -33,13 +47,15 @@
 <p>Fc Selayar Munchen mungkin hanya ada di dunia virtual, tetapi semangatnya nyata—dan saya ingin Anda merasakannya bersama saya! ⚽✨</p>
 
 
+<h3>Rekomendasi Postingan </h3>
+<div id="recommendation-list"></div>
 
     <div class="garisheading">
         <h4>Hubungi Saya</h4>
     </div>
         <div class="icon-container">
             <a href="https://wa.link/ujpeqo">
-                <img src="media/iconwa.svg" alt="WhatsApp">
+                <img src="../media/iconwa.svg" alt="WhatsApp">
             </a>
         </div>
     
@@ -49,11 +65,11 @@
 </div>
     <div class="icon-container">
         <a href="https://www.facebook.com/share/1FYuDMsmTJ/        ">
-            <img src="media/iconfb.svg" alt="Face Book">
+            <img src="../media/iconfb.svg" alt="Face Book">
         </a>
-        <a href="https://www.instagram.com/agoez_ghele?igsh=aW1uenU1NWJlMjZo        "><img src="media/instagram.svg" alt="Instagram"></a>
+        <a href="https://www.instagram.com/agoez_ghele?igsh=aW1uenU1NWJlMjZo        "><img src="../media/instagram.svg" alt="Instagram"></a>
         <a href="https://x.com/AgoezGhele?t=xPSEwNj_Mwm9mP4eAico2Q&s=09        ">
-            <img src="media/x.svg" alt="X">
+            <img src="../media/x.svg" alt="X">
         </a>
     </div>
 </section>
@@ -62,16 +78,17 @@
 </div>
     <div class="icon-container">
         <a href="https://paypal.me/AgusSalim309?country.x=ID&locale.x=id_ID        ">
-            <img src="media/paypal.svg" alt="Pay Pall">
+            <img src="../media/paypal.svg" alt="Pay Pall">
         </a>
         <a href="https://gopay.co.id/app/scanqr?deeplink_source=request_money        ">
-            <img src="media/gopay.png" alt="Go Pay">
+            <img src="../media/gopay.png" alt="Go Pay">
         </a>
     </div>
 
 <hr>
 <footer>
-        <p>Copyright <span id="year"></span> Agoez Ghele All rights reserved</p>
+        <p>Copyright <span id="year"></span> Agoez Ghele. Created by <a href="https://andhim.net" target="_blank" rel="noopener noreferrer">Andhim</a> All rights reserved</p>
+
 </footer>
 
 
