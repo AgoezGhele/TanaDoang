@@ -440,3 +440,68 @@ body.kontras-tinggi .popup-share button {
   color: yellow;
 }
 
+/* komentar.css */
+
+#komentar-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.judul-komentar {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#komentar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#komentar-form input,
+#komentar-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#komentar-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+#komentar-form button {
+  align-self: flex-end;
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#komentar-form button:hover {
+  background-color: #005f99;
+}
+
+#daftar-komentar {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#daftar-komentar li {
+  background-color: #fff;
+  border-left: 4px solid #007acc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  word-break: break-word;
+}
