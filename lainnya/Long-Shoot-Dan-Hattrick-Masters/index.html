@@ -117,16 +117,97 @@
   </div>
 </div>
 
-<h3> Komentar</h3>
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="70af2b20-fc8f-4162-9c16-53d2f449da4a"
-  data-page-id=""
-  data-page-url=""
-  data-page-title=""
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<section id="komentar-section">
+  <h3>Komentar</h3>
 
+  <form id="komentar-form">
+    <input type="text" id="nama" placeholder="Nama Anda" required />
+    <input type="text" id="tim" placeholder="Asal Tim" required />
+    <textarea id="komentar" placeholder="Tulis komentar Anda..." required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <ul id="daftar-komentar">
+    <li>Memuat komentar...</li>
+  </ul>
+</section>
+
+<script>
+const API_URL = 'https://api.andhim.net/comments';
+const pageUrl = window.location.pathname; // /blog/nama-artikel.html misalnya
+
+const form = document.getElementById('komentar-form');
+const daftarKomentar = document.getElementById('daftar-komentar');
+
+// Ambil komentar
+async function ambilKomentar() {
+  daftarKomentar.innerHTML = '<li>Memuat komentar...</li>';
+  try {
+    const res = await fetch(`${API_URL}?page_url=${encodeURIComponent(pageUrl)}`);
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+
+    if (data.length === 0) {
+      daftarKomentar.innerHTML = '<li>Belum ada komentar.</li>';
+      return;
+    }
+
+    daftarKomentar.innerHTML = '';
+    data.forEach(kom => {
+      const item = document.createElement('li');
+      item.innerHTML = `
+        <strong>${kom.name}</strong> (${kom.team})<br/>
+        ${kom.comment}<br/>
+        <small><i>${new Date(kom.created_at).toLocaleString()}</i></small>
+      `;
+      daftarKomentar.appendChild(item);
+    });
+  } catch (err) {
+    daftarKomentar.innerHTML = `<li>Gagal memuat komentar: ${err.message}</li>`;
+  }
+}
+
+// Kirim komentar
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const nama = document.getElementById('nama').value.trim();
+  const tim = document.getElementById('tim').value.trim();
+  const komentar = document.getElementById('komentar').value.trim();
+
+  if (!nama || !tim || !komentar) {
+    alert('Semua kolom harus diisi!');
+    return;
+  }
+
+  const data = {
+    name: nama,
+    team: tim,
+    comment: komentar,
+    page_url: pageUrl
+  };
+
+  try {
+    const res = await fetch(API_URL, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    });
+
+    const hasil = await res.json();
+    if (hasil.error) throw new Error(hasil.error);
+
+    alert('Komentar berhasil dikirim!');
+    form.reset();
+    ambilKomentar();
+  } catch (err) {
+    alert('Gagal mengirim komentar: ' + err.message);
+  }
+});
+
+// Mulai saat halaman dibuka
+ambilKomentar();
+</script>
 
 <h3>Rekomendasi Postingan </h3>
 <div id="recommendation-list"></div>
@@ -169,6 +250,5 @@
         <p>Copyright <span id="year"></span> Agoez Ghele. Created by <a href="https://andhim.net" target="_blank" rel="noopener noreferrer">Andhim</a> All rights reserved</p>
 </footer>
 
-<script src="../../js/komentar.js"></script>
 </body>
 </html>
