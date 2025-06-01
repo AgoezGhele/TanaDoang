@@ -1,85 +1,90 @@
-[
-  {
-    "category": "Kategori Tutorial",
-    "title": "Panduan awal bermain Hattrick",
-    "content": "Selanjutnya membeli pemain yang akan di jadikan pelatih di masa depan. Kriteria pemainnya adalah  ",
-    "penulis": "Penulis : AgoezGhele",
-    "url": "Tutorial/panduan-awal-bermain-hattrick/",
-    "thumbnail": "../../imagesog/panduanbermainhattrick.jpg"
-  },
-    {
-    "category": "Kategori Tutorial",
-    "title": " Pola latihan",
-    "content": "Namun, pola latihan ini adalah pola latihan tercepat ke dua Dalam memaksimalkan latihan pemain, kita harus memasang  ",
-    "penulis": "Penulis : Agoez Ghele",
-    "url": "Tutorial/pola-latihan/",
-    "thumbnail": "../../imagesog/polalatihan.jpg"
-  },
-  {
-    "category": "Kategori Tutorial",
-    "title": "Kesalahan Pemula",
-    "content": "Selain itu, ada juga yang merenovasi stadion secara besar besaran tanpa memahami konsep stadion tersebut. Sebuah stadion tidak akan langsung terisi penuh. Semua itu juga membutuhkan proses, karena itu akan di hitung dari jumlah penggemar  ",
-    "penulis": "Penulis : Agoez Ghele",
-    "url": "Tutorial/kesalahan-pemula/",
-    "thumbnail": "../../imagesog/6kesalhan.jpg"
-  },
-
-    {
+[  
+{    
+"category": "Kategori Tutorial",    
+"title": "Panduan awal bermain Hattrick",    
+"content": "Selanjutnya membeli pemain yang akan di jadikan pelatih di masa depan. Kriteria pemainnya adalah  ",    
+"penulis": "Penulis : AgoezGhele",    
+"url": "Tutorial/panduan-awal-bermain-hattrick/",    
+"thumbnail": "../../imagesog/panduanbermainhattrick.jpg"  
+},    
+{    
+"category": "Kategori Tutorial",    
+"title": " Pola latihan",    
+"content": "Namun, pola latihan ini adalah pola latihan tercepat ke dua Dalam memaksimalkan latihan pemain, kita harus memasang  ",    
+"penulis": "Penulis : Agoez Ghele",    
+"url": "Tutorial/pola-latihan/",    
+"thumbnail": "../../imagesog/polalatihan.jpg"  
+},  
+{    
+"category": "Kategori Tutorial",    
+"title": "Kesalahan Pemula",    
+"content": "Selain itu, ada juga yang merenovasi stadion secara besar besaran tanpa memahami konsep stadion tersebut. Sebuah stadion tidak akan langsung terisi penuh. Semua itu juga membutuhkan proses, karena itu akan di hitung dari jumlah penggemar  ",    
+"penulis": "Penulis : Agoez Ghele",    
+"url": "Tutorial/kesalahan-pemula/",    
+"thumbnail": "../../imagesog/6kesalhan.jpg"  
+},
+    {    
+"category": "Kategori History",    
+"title": "Arjuna Junior: Kisah Kebangkitan Sang Ksatria dari Yogyakarta",    
+"content": "Di jantung Yogyakarta, sebuah tim sepak bola dengan semangat never give up lahir di tengah pandemi",    
+"penulis": "Penulis : Bagas Arjuna",    
+"url": "History/arjuna-junior/",    
+"thumbnail": "../../imagesog/teamarjuna.jpg"  
+},
+  {    
+"category": "Kategori History",    
+"title": "Tanadoang  Dari Tanah Tempat Berdo'a Kami Menendang Langit.     ",    
+"content": " Di ujung selatan Sulawesi, di mana laut biru dan pohon kelapa seperti tiang penjaga alam, ada sebuah pulau kecil bernama Selayar, Di sini, doa bukan sekadar ritual, tapi nafas kehidupan. ",    
+"penulis": "Penulis : Agoez Ghele",    
+"url": "History/tana-doang/",    
+"thumbnail": "../../imagesog/daritanadoangkamimendanglangit.jpg"  
+},  
+{    
+"category": "Kategori History",    
+"title": "FC Pejantan Jakarta",    
+"content": "keahliannya dalam meramu jamu, dia bisa membentuk pemain-pemain yang sulit di hadapi di atas lapangan hijau. ",    
+"penulis": "Penulis : Mas Bop",    
+"url": "History/fc-pejantan-jakarta/",    
+"thumbnail": "../../imagesog/fcpejantanjakarta.jpg"  
+},  
+{    
+"category": "Kategori History",    
+"title": "The Blind Hattrick Turnamen",    
+"content": "Pekanbaru City memimpin Hijau dengan keganasan. Di Ronde 1, mereka menggilas Hyper Kabuto 4-0, diikuti kemenangan 1-0 atas Arjuna Junior di Ronde 2. ",    
+"penulis": "Penulis : Bagas Arjuna",    
+"url": "History/keringat-dan-darah/",    
+"thumbnail": "../../imagesog/turnamen.jpg"  
+},  
+{    
+"category": "Kategori History",    
+"title": "Kisah gamer Spanyol Belajar Sepakbola ",    
+"content": "Saat mulai berlatih sepak bola, dia tampak begitu kaku dalam menggiring bola, mengumpan dan menendang. Tapi manager nya terus memberikan semangat kepadanya. ",    
+"penulis": "Penulis : Agoez Ghele",    
+"url": "History/xavihernandez/",    
+"thumbnail": "../../imagesog/safihernandesspanyol.jpg"  
+},  
+{    
+"category": "Kategori Lainnya",    
+"title": "Dua Ambisi Yang Membara di Permainan Hattrick",    
+"content": "Keberhasilan mencetak pemain timnas mengajarkan satu hal:detail kecil menentukan segalanya. Tjiong Matakupan tidak langsung jadi pemain Timnas dalam semalam. ",    
+"penulis": "Penulis : Agoez Ghele",    
+"url": "lainnya/dua-ambisi-yang-membara/",    
+"thumbnail": "../../imagesog/lainnya.jpg"  
+},  
+{    
+"category": "Kategori Lainnya",    
+"title": "Long Shoot & Hattrick Masters",    
+"content": "Hattrick tak hanya ada pertandingan liga, cup, dan persahabatan, melainkan ada hattrick masters sebagai pembuktian bahwa tim Anda adalah terbaik dari yang terbaik. Para peserta kompetisinya ",    
+"penulis": "Penulis : Agoez Ghele",    
+"url": "lainnya/Long-Shoot-Dan-Hattrick-Masters/",    
+"thumbnail": "../../imagesog/lainnya.jpg"  
+},
+{
     "category": "Kategori History",
-    "title": "Arjuna Junior: Kisah Kebangkitan Sang Ksatria dari Yogyakarta",
-    "content": "Di jantung Yogyakarta, sebuah tim sepak bola dengan semangat never give up lahir di tengah pandemi",
-    "penulis": "Penulis : Bagas Arjuna",
-    "url": "History/arjuna-junior/",
-    "thumbnail": "../../imagesog/teamarjuna.jpg"
-  },
-
-  {
-    "category": "Kategori History",
-    "title": "Tanadoang  Dari Tanah Tempat Berdo'a Kami Menendang Langit.     ",
-    "content": " Di ujung selatan Sulawesi, di mana laut biru dan pohon kelapa seperti tiang penjaga alam, ada sebuah pulau kecil bernama Selayar, Di sini, doa bukan sekadar ritual, tapi nafas kehidupan. ",
-    "penulis": "Penulis : Agoez Ghele",
-    "url": "History/tana-doang/",
-    "thumbnail": "../../imagesog/daritanadoangkamimendanglangit.jpg"
-  },
-  {
-    "category": "Kategori History",
-    "title": "FC Pejantan Jakarta",
-    "content": "keahliannya dalam meramu jamu, dia bisa membentuk pemain-pemain yang sulit di hadapi di atas lapangan hijau. ",
-    "penulis": "Penulis : Mas Bop",
-    "url": "History/fc-pejantan-jakarta/",
-    "thumbnail": "../../imagesog/fcpejantanjakarta.jpg"
-  },
-  {
-    "category": "Kategori History",
-    "title": "The Blind Hattrick Turnamen",
-    "content": "Pekanbaru City memimpin Hijau dengan keganasan. Di Ronde 1, mereka menggilas Hyper Kabuto 4-0, diikuti kemenangan 1-0 atas Arjuna Junior di Ronde 2. ",
-    "penulis": "Penulis : Bagas Arjuna",
-    "url": "History/keringat-dan-darah/",
-    "thumbnail": "../../imagesog/turnamen.jpg"
-  },
-  {
-    "category": "Kategori History",
-    "title": "Kisah gamer Spanyol Belajar Sepakbola ",
-    "content": "Saat mulai berlatih sepak bola, dia tampak begitu kaku dalam menggiring bola, mengumpan dan menendang. Tapi manager nya terus memberikan semangat kepadanya. ",
-    "penulis": "Penulis : Agoez Ghele",
-    "url": "History/xavihernandez/",
-    "thumbnail": "../../imagesog/safihernandesspanyol.jpg"
-  },
-  {
-    "category": "Kategori Lainnya",
-    "title": "Dua Ambisi Yang Membara di Permainan Hattrick",
-    "content": "Keberhasilan mencetak pemain timnas mengajarkan satu hal:detail kecil menentukan segalanya. Tjiong Matakupan tidak langsung jadi pemain Timnas dalam semalam. ",
-    "penulis": "Penulis : Agoez Ghele",
-    "url": "lainnya/dua-ambisi-yang-membara/",
-    "thumbnail": "../../imagesog/lainnya.jpg"
-  },
-  {
-    "category": "Kategori Lainnya",
-    "title": "Long Shoot & Hattrick Masters",
-    "content": "Hattrick tak hanya ada pertandingan liga, cup, dan persahabatan, melainkan ada hattrick masters sebagai pembuktian bahwa tim Anda adalah terbaik dari yang terbaik. Para peserta kompetisinya ",
-    "penulis": "Penulis : Agoez Ghele",
-    "url": "lainnya/Long-Shoot-Dan-Hattrick-Masters/",
-    "thumbnail": "../../imagesog/lainnya.jpg"
+    "title": "Pengalaman Bermain Hattrick ",
+    "content": "Halo semua. Disini aku mau sedikit bercerita tentang pengalamanku bermain Hattrick. Dari awal jadi newbie sampai sekarang… ya masih newbie juga sih, hehe.  ",
+    "penulis": "Penulis : YuD-OB06,
+    "url": "History/Pengalaman-Bermain-Hattrick/",
+    "thumbnail": "../../imagesog/Yudi.jpg"
   }
-
 ]
