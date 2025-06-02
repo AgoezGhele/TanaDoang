@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset   
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>    
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  
+<url>    
 <loc>https://hattrick.id/</loc>    
 <lastmod>2025-05-23</lastmod>    
 <changefreq>weekly</changefreq>    
 <priority>1.0</priority>  
-</url>
-  <url>    
+</url>  
+<url>    
 <loc>https://hattrick.id/tentang/</loc>    
 <lastmod>2025-05-23</lastmod>    
 <changefreq>yearly</changefreq>    
 <priority>0.5</priority>  
-</url>
-  <url>    
+</url>  
+<url>    
 <loc>https://hattrick.id/Tutorial/kesalahan-pemula/</loc>    
 <lastmod>2025-05-23</lastmod>    
 <changefreq>yearly</changefreq>    
@@ -73,9 +73,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <changefreq>yearly</changefreq>    
 <priority>0.5</priority>  
 </url>
+<url>    
+<loc>https://hattrick.id/History/Pengalaman-Bermain-Hattrick</loc>    
+<lastmod>2025-06-01</lastmod>    
+<changefreq>yearly</changefreq>    
+<priority>0.5</priority>  
+</url>
 <url>
-    <loc>https://hattrick.id/History/Pengalaman-Bermain-Hattrick</loc>
-    <lastmod>2025-06-01</lastmod>
+    <loc>https://hattrick.id/lainnya/Long-Shoot-Dan-Hattrick-Masters</loc>
+    <lastmod>2025-05-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
