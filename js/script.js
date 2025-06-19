@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Daftar kata yang ingin diganti beserta linknya
     const wordLinks = {
         "Indonesia": "https://indonesia.go.id/",
-"playstore": "https://play.google.com/store/apps/details?id=org.hattrick.hattrick",
 "FC Selayar": "https://www.hattrick.org/Club/?TeamID=113295",
 "selayar": "https://id.wikipedia.org/wiki/Kabupaten_Kepulauan_Selayar",
         "Asia": "https://www.asia.com"
